@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemate.Api", "Cinemate.Api\Cinemate.Api.csproj", "{0E3AAF3B-B2C1-4DDF-8D6A-E068B58E289E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinemate.Api", "Cinemate.Api\Cinemate.Api.csproj", "{0E3AAF3B-B2C1-4DDF-8D6A-E068B58E289E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemate.Api.Tests.Unit", "Cinemate.Api.Tests.Unit\Cinemate.Api.Tests.Unit.csproj", "{FD7E15CA-FBDA-44CF-A9F6-F3AF5681CD1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0E3AAF3B-B2C1-4DDF-8D6A-E068B58E289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E3AAF3B-B2C1-4DDF-8D6A-E068B58E289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E3AAF3B-B2C1-4DDF-8D6A-E068B58E289E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7E15CA-FBDA-44CF-A9F6-F3AF5681CD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7E15CA-FBDA-44CF-A9F6-F3AF5681CD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7E15CA-FBDA-44CF-A9F6-F3AF5681CD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7E15CA-FBDA-44CF-A9F6-F3AF5681CD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
